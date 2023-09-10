@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,390 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.con{
+  justify-content: center;
+    display: flex;
+}
+div{
+  margin-bottom: 20px;
+}
+.gg{
+  background-color: burlywood;
+  color: crimson;
+}
+.hidden{
+  margin-top: 23px;
+}
+.g1{
+  color: rgb(255, 140, 0);
+  background-color: rgb(255, 183, 0);
+}
+.h{
+  flex: 1;
+} */
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* Add this CSS to your global styles or a separate CSS file */
+
+body {
+  background-color: #f0f2f5;
+  font-family: sans-serif;
+}
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  padding: 11px 145px;
+  background-color: white;
+  margin-top: 137px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+button {
+  border: none;
+  background: none;
+}
+form {
+  padding: 64px 84px;
+
+  display: flex;
+  margin-top: -56px;
+}
+h4 {
+  justify-content: left;
+  display: flex;
+  font-size: 17px;
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.addtop {
+  display: grid;
+}
+.todo h1 {
+  font-weight: 700;
+}
+.stat {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+}
+.stat h2 {
+  color: #121212;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+.trashs {
+  background: #713fff;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(113, 63, 255, 0.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 30px;
+}
+h2 {
+  max-width: 354px;
+}
+
+.no {
+  background: #bab6c5;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(113, 63, 255, 0.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 30px;
+}
+
+.addmid button {
+  display: flex;
+  background: none;
+  width: 93px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+}
+.add-task-button {
+  padding: 13px;
+  /* justify-content: center; */
+  align-items: center;
+  display: flow;
+  border-radius: 14px;
+  background-color: #6f42c1;
+  color: white;
+}
+option {
+  margin-right: 13px;
+  /* background: aliceblue; */
+  padding: 4px;
+}
+.high {
+  border: 1px solid red;
+  color: red;
+  border-radius: 9px;
+  width: 70px;
+  /* background-color: red; */
+}
+.priority-buttons .high:hover {
+  color: white;
+  background: red;
+}
+.medium {
+  border: 1px solid yellow;
+  color: yellow;
+  border-radius: 9px;
+  width: 70px;
+  /* background-color: red; */
+}
+.priority-buttons .medium:hover {
+  color: white;
+  background: yellow;
+}
+.low {
+  border: 1px solid green;
+  color: green;
+  border-radius: 9px;
+  width: 82px;
+  /* background-color: red; */
+}
+.priority-buttons .low:hover {
+  color: white;
+  background: green;
+}
+.addbottom {
+  margin-top: 59px;
+  justify-content: end;
+  display: flex;
+}
+.addbottom button {
+  background: #713fff;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(113, 63, 255, 0.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 30px;
+}
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+
+  cursor: pointer;
+}
+.row {
+  justify-content: center;
+}
+input {
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  width: 376px;
+  background: #fff;
+  border: 1px solid #d8e0f0;
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(184, 200, 224, 0.222);
+  font-weight: 400;
+  outline: none;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 81px;
+  width: 671px;
+}
+.poprow {
+  justify-content: center;
+  display: flex;
+}
+.addtask {
+  background: #713fff;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(113, 63, 255, 0.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 30px;
+}
+i {
+  margin-right: 12px;
+}
+
+.priority-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 17px;
+}
+ul {
+  justify-content: center;
+  margin-top: 40px;
+  list-style-type: none;
+}
+.all {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 6px 58px rgba(196, 203, 214, 0.104);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 22px 30px;
+}
+h5 {
+  color: #91929e;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+p {
+  color: #0a1629;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.trash {
+  color: red;
+}
+.feature i {
+  font-size: 20px;
+}
+.progress-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 69px;
+}
+
+.progress-bar {
+  background-color: #ccc; /* Gray background color */
+  padding: 10px; /* Add padding to create space around the progress bar */
+  border-radius: 50%; /* Make it circular */
+}
+.button-container button {
+  background: hsla(217, 9%, 53%, 0.14);
+  border: none;
+  border-radius: 8px;
+  color: #7d8592;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 14px;
+}
+.button-container button :hover {
+  background: hsla(217, 9%, 53%, 0.14);
+  border: none;
+  border-radius: 8px;
+  color: #7d8592;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  outline: none;
+  padding: 7px 14px;
+}
+.feature {
+  justify-content: flex-end;
+  display: flex;
+}
+li {
+  padding: 0px 235px;
+}
+p {
+  font-weight: 400;
+}
+.progress-container svg {
+  width: 26px;
+  color: #713fff;
+}
+.circle span {
+  justify-content: center;
+  display: flex;
+}
+
+.Priority-list p.high {
+  color: red;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.Priority-list p.medium {
+  color: #ffbd21;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.Priority-list p.low {
+  color: green;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+
+
+
+.selectedred {
+  background-color: #ff0000 !important;
+  color: rgb(255, 255, 255);
+}
+
+.selectedyellow {
+  background-color: #ff9900 !important;
+  color: rgb(255, 255, 255);
+}
+.selectedgreen {
+  background-color: #00ff04 !important;
+  color: rgb(255, 255, 255);
+}
+
+
+.button-containers{
+  justify-content: space-between;
+  display: flex;
 }
